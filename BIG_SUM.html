@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+</script>
+
+// function - takes 1 input - a number //
+
+function BIG_SUM(n) {
+	// e.g. n = 25
+	// return 25+24+23+22.... +3+2+1
+	SUM_SUM = 0;
+
+	for(i = n; i<=1; i = i+1){
+	// do some sort of cumalative addition
+	// console.log("i = " + 1);
+	SUM_SUM = SUM_SUM + i;
+	console.log("current sum = " + SUM_SUM);
+	}
+	return SUM_SUM;
+}
+
+var i  = BIG_SUM(5)
+console.log:("The big sum is " + 1);
+
+console.log("The next big sum is " + BIG_SUM(9));
+</script>
+</body>
+</html>
